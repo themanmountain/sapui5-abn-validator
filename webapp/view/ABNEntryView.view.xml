@@ -1,0 +1,13 @@
+<mvc:View controllerName="mmd.abnValidator.controller.ABNEntryView" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:mmd="mmd.abnValidator.controls">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Label class="abnInputHeader" text="{i18n>abnInputHeader}"></Label>
+					<mmd:AbnInput class="abnInput" width="50%" id="inputAbn" placeholder="{i18n>inputPlaceholder}"></mmd:AbnInput>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
