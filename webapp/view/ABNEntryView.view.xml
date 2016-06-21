@@ -5,7 +5,11 @@
 			<Page title="{i18n>title}">
 				<content>
 					<Label class="abnInputHeader" text="{i18n>abnInputHeader}"></Label>
-					<mmd:AbnInput class="abnInput" width="50%" id="inputAbn" placeholder="{i18n>inputPlaceholder}"></mmd:AbnInput>
+					<mmd:AbnInput class="abnInput" 
+								  width="50%" 
+								  id="inputAbn" 
+								  placeholder="{i18n>inputPlaceholder}"
+								  mandatory="true"></mmd:AbnInput>
 				</content>
 			</Page>
 		</pages>
