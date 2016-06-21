@@ -56,10 +56,9 @@ sap.ui.define([
 		onAfterRendering: function(oEvent) {
 			sap.m.Input.prototype.onAfterRendering.apply(this, arguments);
 
-			/* If mandatory, call validation on init */
-			if (this._bMandatory) {
-				this._validate("");
-			}
+			/* Call validation on init */
+			this._validate(this.getValue());
+
 		},
 
 		setMandatory: function(bVal) {
